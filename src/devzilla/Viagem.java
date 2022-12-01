@@ -89,11 +89,11 @@ public class Viagem {
 		this.status = status;
 	}
 
-	public boolean validarLocal(String origem) {
+	public boolean validarLocal(String local) {
 		boolean valido = false;
 		
 		for(String bairro: bairros) {
-			if(bairro.equals(origem)) {
+			if(bairro.equals(local)) {
 				valido = true;
 				break;
 			}
